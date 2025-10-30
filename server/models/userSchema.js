@@ -1,3 +1,4 @@
+
 import mongoose from "mongoose";
 import bcrypt from "bcrypt"
 
@@ -6,7 +7,7 @@ let addressObject = {
 }
 
 let emailObject = {
-    email: "", verify: false
+    userEmail: "", verified: false
 }
 
 let userShcema = mongoose.Schema({
