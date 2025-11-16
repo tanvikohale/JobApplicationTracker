@@ -1,4 +1,3 @@
-
 import express from "express"
 
 import { createJob, getJobData, handleJobAction, handleJobApplication } from "../controllers/jobController.js"
